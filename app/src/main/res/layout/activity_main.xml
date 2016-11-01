@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_marginTop="10dp"
-        android:visibility="invisible"
+        android:visibility="visible"
         android:text="Update time:" />
 
     <Button
@@ -41,20 +41,5 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="START TRACKING"/>
-
-    <Button
-        android:id="@+id/stop_service_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="STOP SERVICE"/>
-    <Button
-        android:id="@+id/reset_btn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:text="RESET LOCATION"/>
 
 </LinearLayout>
